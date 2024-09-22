@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+
+	body{
+		background-image: url("Images/Picture2.jpg");
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		margin: 25px 25px 25px 25px;
+	}
+
+	div{
+		border-radius: 15px;
+	}
+
+	.header{
+		margin: 2px;
+	}
+
+	.header img{
+	width: 140px;
+	height: 130px;
+	}
+	.nav{
+		overflow: hidden;
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 15px;
+		margin: 5px;
+	}
+	.nav a{
+		float: right;
+		padding: 7px;
+		color: white;
+		text-decoration: none;
+
+	}
+
+	.menu{
+		float: left;
+		background-color: rgba(0, 0, 0, 0.3);
+		width: 32.5%;
+		height: 600px;
+		margin: 5px;
+		text-align: center;
+		color: white;
+	}
+
+	.item{
+		display: flex;
+			background-color: ghostwhite;
+			height: 150px;
+			margin: 2px;
+		}
+
+	.photo{
+		margin-right: auto;
+	}
+
+	.photo img{
+		height: 150px;
+		width: 150px;
+		padding: 1px;
+		border-radius: 15px;
+	}
+
+	.text{
+		color: black;
+	}
+
+
+	.dispplay:after{ 
+		content: " ";
+		display: table;
+		clear: both;
+	}
+		
+	.contact{
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	a:link{
+		color: white;
+	}
+	a:visited{
+		color: beige;
+	}
+	a:hover{
+		color: gold;
+	}
+	</style>
+</head>
+<body>
+<div class="header">
+		<a href="index.html"><img src="Images/logo3-removebg-preview.png" alt="logo"></a>
+	</div>
+
+	<div class="nav">
+		<a href="Reservation.html">Reservation</a>
+		<a href="Menu.html">Menu</a>
+		<a href="About Us.html">About Us</a>
+	</div>
+
+	<div class="dispplay">
+		<div class="menu">
+			<h2>Breakfast</h2>
+			<div class="item">
+				<div class="photo">
+					<img src="Images/egg.jpg">
+				</div>
+				<div class="text">
+					<p><b>Egg Benedict</b></p>
+					<p><i>Poched eggs on top of bread with avocado and sauce</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/omelette.jpg"></div>
+				<div class="text">
+					<p><b>Omelette</b></p>
+					<p><i>buttery omelette stuffed with Recotta cheese, mashrooms, and sausage</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/englishbreakfast.jpg"></div>
+				<div class="text">
+					<p><b>English Breakfast</b></p>
+					<p><i>Sausages,Bacon, Scramble Eggs, Baked beans  in a tomato sauce, sauteed Mushrooms, Grilled tomatoes, Black pudding, Toast, and Hash browns</i></p>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<h2>lunch&Dinner</h2>
+			<div class="item">
+				<div class="photo"><img src="Images/fettucine2.jpg"></div>
+				<div class="text">
+					<p><b>Fettucine Alfredo</b></p>
+					<p><i>Fettuccine pasta tossed in a rich and creamy Parmesan cheese sauce made with butter and a touch of garlic.</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/steak.jpg"></div>
+				<div class="text">
+					<p><b>Steak</b></p>
+					<p><i>Grilled steak served with creamy mashed potatoes whipped with butter and chives.</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/burger.jpg"></div>
+				<div class="text">
+					<p><b></b>Burger</p>
+					<p><i>All-beef patty grilled to your preference served on a toasted sesame seed bun with lettuce, tomato, red onion, and our signature sauce.</i></p>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<h2>Drinks</h2>
+			<div class="item">
+				<div class="photo"><img src="Images/milkshake.jpg"></div>
+				<div class="text">
+					<p><b>Milkshake</b></p>
+					<p><i>Creamy milkshakes blended with house-made ice cream, whole milk, and decadent syrups. Choose your favorite flavor!</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/tea.jpg.webp"></div>
+				<div class="text">
+					<p><b>Tea</b></p>
+					<p><i>Your choice of black, green, onolog, or jasmine tea</i></p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="photo"><img src="Images/icetea.webp"></div>
+				<div class="text">
+					<p><b>Lemon Iced Tea</b></p>
+					<p><i>Black tea leaves steeped for a refreshing taste. Served chilled.</i></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="contact">
+	<p>Copyrights&copy 2024 for Dreams Restaurant</p>
+	<p>Contact Us: <a href="mailto:Dreams@gmail.com">Dreams@gmail.com</a></p>
+</div>
+
+</body>
+</html>

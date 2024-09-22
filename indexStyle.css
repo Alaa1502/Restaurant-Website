@@ -1,0 +1,63 @@
+body{
+	background-image: url("Images/Picture2.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin: 25px 25px 25px 25px;
+}
+
+div{
+	border-radius: 15px;
+}
+img{
+	width: 140px;
+	height: 130px;
+	float: left;
+}
+
+.nav{
+	overflow: hidden;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 5px;
+}
+ul{
+	list-style: none;
+	float: right;
+}
+li{
+	display: inline-block;
+	margin-right: 12px;
+	padding: 1px;	
+}
+li a{
+	text-decoration: none;
+}
+a:link{
+	color: white;
+}
+a:visited{
+	color: beige;
+}
+a:hover{
+	color: gold;
+}
+
+div{
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+}
+.introduction{
+	
+	margin: auto;
+	padding: 10px;
+}
+.headd{
+	margin-bottom: 10px;
+	padding-left: 90px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.contact{
+	margin: auto;
+	padding: 10px;
+}

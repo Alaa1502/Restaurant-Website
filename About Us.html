@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+
+	body{
+		background-image: url("Images/Picture2.jpg");
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		margin: 25px 25px 25px 25px;
+	}
+
+	.header{
+		margin: 2px;
+	}
+
+	div{
+		border-radius: 15px;
+	}
+
+	img{
+	width: 140px;
+	height: 130px;
+	}
+	.nav{
+		overflow: hidden;
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 15px;
+		margin: 5px;
+	}
+	.nav a{
+		float: right;
+		padding: 7px;
+		color: white;
+		text-decoration: none;
+	}
+	
+	.story{
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		width: 48%;
+		float: left;
+		margin: 6px;
+		height: 400px;
+		text-align: center;
+	}
+
+	.story.image{
+		background-color: rgba(0, 0, 0, 0.3);
+		height: 400px;
+	}
+	.story.image img{
+		height: 100%;
+		width: 100%;
+		border-radius: 15px;
+		
+	}
+
+	.dispplay:after{ 
+		content: " ";
+		display: table;
+		clear: both;
+	}
+		
+	.contact{
+		background-color: rgba(0, 0, 0, 0.3);
+		color: white;
+		padding: 15px;
+		margin: 5px;
+	}
+
+	a:link{
+		color: white;
+	}
+	a:visited{
+		color: beige;
+	}
+	a:hover{
+		color: gold;
+	}
+
+	@media screen and (max-width: 600px)
+		{
+			.story.text{
+				width: 100%;
+				height: 500px;
+			}
+			.story.image{
+				width: 100%;
+				height: 500px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<a href="index.html"><img src="Images/logo3-removebg-preview.png" alt="logo"></a>
+	</div>
+
+	<div class="nav">
+		<a href="Reservation.html">Reservation</a>
+		<a href="Menu.html">Menu</a>
+		<a href="About Us.html">About Us</a>
+	</div>
+
+	<div class="dispplay">
+	<div class="story text">
+		<h2>Our Story</h2>
+		<p>It all started with these family dinners. Every Sunday, our little house would overflow with the aroma of simmering stews and sizzling stir-fries. It wasn't just a meal; it was a celebration of flavors, a testament to the love we shared for food. We'd experiment with spices, swap childhood recipes, and devour everything with gusto. It was then we realized, this passion, this joy of creating and sharing deliciousness, shouldn't be confined to our four walls. We dreamt of a place where families could gather, bond over plates piled high with goodness, and experience the same magic we felt around our dinner table. So, with a leap of faith and a whole lot of love, we decided to open our own restaurant. It wasn't easy, there were countless decisions, late nights spent perfecting dishes, and disagreements about the décor (Dad insisted on those comfy armchairs!). But through it all, our family remained the heart of this venture. We poured our heritage, our love for food, and our unwavering belief in the power of a shared meal into every brick and mortar. Now, when you walk through our doors, you're not just entering a restaurant; you're stepping into an extension of our family table. We invite you to savor our creations, connect with loved ones, and experience the joy of food that first brought us all together.</p>
+</div>
+	<div class="story image"><img src="Images/chef2.webp"></div>
+</div>
+
+<div class="contact">
+	<p>Copyrights&copy 2024 for Dreams Restaurant</p>
+	<p>Contact Us: <a href="mailto:Dreams@gmail.com">Dreams@gmail.com</a></p>
+</div>
+
+</body>
+</html>
